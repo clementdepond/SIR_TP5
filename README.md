@@ -13,7 +13,7 @@ Nous lancions jetty sur un terminal avec :
 mvn jetty:run
 ```
 
-Le serveur jetty se lançait parfaitement mais c'est lors de la validation du formulaire que l'URI n'était pas détecté.
+Le serveur jetty se lançait parfaitement mais c'est lors de la validation du formulaire que la vérification renvoyait des "null".
 
 Nous avons tout de même réalisé 3 formulaires pour ajouter les 3 types d'objet, mais le problème persiste pour ces derniers : 
 
