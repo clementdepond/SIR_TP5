@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<web-app>
+    <servlet>
+        <servlet-name>userinfo</servlet-name>
+        <servlet-class>servlet.UserInfo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>userinfo</servlet-name>
+        <url-pattern>/UserInfo</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>UtilisateurInfo</servlet-name>
+        <servlet-class>servlet.UtilisateurInfo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UtilisateurInfo</servlet-name>
+        <url-pattern>/UtilisateurInfo</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>FicheInfo</servlet-name>
+        <servlet-class>servlet.FicheInfo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FicheInfo</servlet-name>
+        <url-pattern>/FicheInfo</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>TagInfo</servlet-name>
+        <servlet-class>servlet.TagInfo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TagInfo</servlet-name>
+        <url-pattern>/TagInfo</url-pattern>
+    </servlet-mapping>
+</web-app>
